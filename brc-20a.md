@@ -100,8 +100,12 @@ Transferring BRC-20A tokens is the same as the transfer process of BRC-20.
    1. **Be careful when using an inscription service. Some inscription tools inscribe to themselves first and then transfer it to the customer (when the intermediate inscription service-owned address has no balance and the transfer function is invalid). Some ordinal wallets generate a different address each time. Make sure to send it to the address that holds the balance.**
 2. Once received and if valid, send the inscription to the desired destination to transfer the balance.
 
+<figure><img src=".gitbook/assets/Xnip2024-04-11_19-49-03.jpg" alt="" width="563"><figcaption><p>Transfer BRC-20A</p></figcaption></figure>
+
 ## **5 Convert between BRC-20A and BRC-20**
 
 Currently, the BRC-20A deployer holds all the balance of the counterpart BRC-20 token. As a result, the conversion service should be implemented and deployed by the BRC-20A deployer.
 
 We expect custody conversion services (similar to a general ERC-20 token bridge) to become available. A protocol-level solution is also possible.
+
+<figure><img src=".gitbook/assets/image-20240329152201720.png" alt="" width="563"><figcaption><p>Conversion between BRC-20A and BRC-20</p></figcaption></figure>

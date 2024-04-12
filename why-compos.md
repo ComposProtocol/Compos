@@ -10,7 +10,7 @@ Users holding BRC-20A tokens, who prefer to keep the asset without any on-chain 
 
 The following diagram illustrates the conversion process between BRC-20A and BRC-20:
 
-<figure><img src=".gitbook/assets/image-20240329152201720 (1).png" alt="" width="563"><figcaption><p>Conversion between BRC-20A and BRC-20</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image-20240329152201720 (1) (1).png" alt="" width="563"><figcaption><p>Conversion between BRC-20A and BRC-20</p></figcaption></figure>
 
 In addition to smart contract features, **BRC-20A supports the Jubilee upgrade and Batch Inscribe**. Users can inscribe multiple BRC-20As inscriptions on a single UTXO, significantly saving costs. In separate-outputs mode, it can save over 50% of fees, and in same-sats mode, **even more than 90%**, far exceeding CBRC-20. For instance, if a user wants to inscribe 100 times BRC-20 tokens, they can do so with one transaction using BRC-20A's same-sats and then convert them into BRC-20 tokens with another transaction. Effectively, this equates to accomplishing merely two transactions that previously required a hundred separate transactions to achieve the same quantity of BRC-20 tokens.
 
