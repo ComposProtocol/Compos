@@ -8,5 +8,6 @@
   * [OCF System Functions](ocf-and-cvm/ocf-system-functions.md)
   * [OCF Example](ocf-and-cvm/ocf-example.md)
 * [BRC-20A](brc-20a.md)
+* [Runes VM](runes-vm.md)
 * [Feedback](feedback.md)
 * [Roadmap](roadmap.md)
